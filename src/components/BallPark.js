@@ -1,52 +1,38 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import data from "../data/data.json";
+import Detail from "./Detail";
+import { Link } from "react-router-dom";
 
-function importAll(r) {
-  return r.keys().map(r);
-}
+function BallPark() {
+  useEffect(() => {
+    fetchItems();
+  }, []);
 
-const images = importAll(
-  require.context("../img", false, /\.(png|jpe?g|svg)$/)
-);
+  const [items, setItems] = useState([]);
 
-class BallPark extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-  handleClick(e) {
-    var index = -1;
-    var filteredObj = data.find((item, i) => {
-      if (item.id == e.target.id) {
-        index = i;
-        return i;
-      }
-    });
-    var targetData = data[index];
-    console.log(targetData);
-  }
-  render() {
-    console.log(images);
-    return (
-      <div className="ballpark-container">
-        {data.map((data, i) => {
-          return (
-            <a
-              href="#"
-              key={i}
-              className="ballpark"
-              id={data["id"]}
-              style={{
-                backgroundImage: `url(${images[i]})`,
-              }}
-              onClick={this.handleClick.bind(this)}
-            >
-              {data["name"]}
-            </a>
-          );
-        })}
-      </div>
-    );
-  }
+  const fetchItems = async () => {
+    const items = data;
+    console.log(items);
+
+    setItems(items);
+  };
+
+  return (
+    <div className="ballpark-container">
+      {items.map((item, i) => {
+        return (
+          <Link
+            to={`/${item.id}`}
+            className="ballpark"
+            key={i}
+            style={{ backgroundImage: `url('../${item.image}')` }}
+          >
+            {item.name}
+          </Link>
+        );
+      })}
+    </div>
+  );
 }
 
 export default BallPark;

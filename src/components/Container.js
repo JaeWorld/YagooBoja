@@ -1,5 +1,6 @@
 import React from "react";
-import BallPark from "./BallPark";
+import Ballpark from "./BallPark";
+import { Link } from "react-router-dom";
 
 const Container = (props) => {
   return (
@@ -7,7 +8,7 @@ const Container = (props) => {
       <span>
         <h3>야구장 정보</h3>
       </span>
-      <BallPark />
+      <Ballpark />
     </div>
   );
 };

@@ -73,3 +73,9 @@ body a {
   font-size: 50px;
   font-weight: lighter;
 }
+
+.ballpark-detail {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
