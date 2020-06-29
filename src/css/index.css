@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gothic A1", sans-serif;
+}
+
+body a {
+  color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  min-height: 10vh;
+  align-items: center;
+  border-bottom: 0.5px solid lightgray;
+  width: 100%;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: "Black Han Sans", sans-serif;
+  font-size: 48px;
+}
+
+.today-info {
+  display: grid;
+  text-align: center;
+}
+
+.date {
+  font-weight: bold;
+}
+
+.ballpark-info {
+  padding: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.ballpark-container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat(3, 30%);
+}
+
+.ballpark {
+  color: rgb(221, 221, 221);
+  font-family: "Black Han Sans", sans-serif;
+  font-size: 30px;
+  margin: 10px 10px 10px 10px;
+  padding: 10%;
+  text-decoration: none;
+  text-align: left top;
+  align-items: center;
+  background-color: azure;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  transition: 0.2s ease-out;
+  border-radius: 10px;
+}
+
+.ballpark:hover {
+  opacity: 1;
+  transition: 0.2s ease-in;
+}
+
+.ballpark-name {
+  font-family: "Black Han Sans", sans-serif;
+  font-size: 50px;
+  font-weight: lighter;
+}

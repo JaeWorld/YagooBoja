@@ -1,0 +1,74 @@
+[
+  {
+    "id": "jamsil",
+    "name": "잠실야구장",
+    "hometeam": ["엘지 트윈스", "두산 베어스"],
+    "capacity": 25553,
+    "location": "서울특별시 송파구",
+    "image": "img/jamsil.jpg"
+  },
+  {
+    "id": "gocheok",
+    "name": "고척스카이돔",
+    "hometeam": "키움 히어로즈",
+    "capacity": 17000,
+    "location": "서울특별시 구로구",
+    "image": "img/gocheok.jpg"
+  },
+  {
+    "id": "suwon",
+    "name": "수원 케이티 위즈 파크",
+    "hometeam": "kt wiz",
+    "capacity": 20000,
+    "location": "수원시 ",
+    "image": "img/suwon.jpg"
+  },
+  {
+    "id": "incheon",
+    "name": "인천SK행복드림구장",
+    "hometeam": "SK 와이번스",
+    "capacity": 23000,
+    "location": "인천광역시 미추홀구",
+    "image": "img/incheon.jpg"
+  },
+  {
+    "id": "daegu",
+    "name": "대구 삼성 라이온즈 파크",
+    "hometeam": "삼성 라이온즈",
+    "capacity": 24000,
+    "location": "대구광역시 수성구",
+    "image": "img/daegu.jpg"
+  },
+  {
+    "id": "gwangju",
+    "name": "광주-기아 챔피언스 필드",
+    "hometeam": "KIA 타이거즈",
+    "capacity": 22244,
+    "location": "광주광역시 북구",
+    "image": "img/gwangju.jpg"
+  },
+  {
+    "id": "daejeon",
+    "name": "대전 한화생명 이글스 파크",
+    "hometeam": "한화 이글스",
+    "capacity": 13440,
+    "location": "대전광역시 중구",
+    "image": "img/daejeon.jpg"
+  },
+  {
+    "id": "sajik",
+    "name": "사직 야구장",
+    "hometeam": "롯데 자이언츠",
+    "capacity": 22700,
+    "location": "부산광역시 동래구",
+    "image": "img/sajik.jpg"
+  },
+  {
+    "id": "changwon",
+    "name": "창원 NC 파크",
+    "hometeam": "NC 다이노스",
+    "capacity": 21484,
+    "location": "경상남도 창원시 마산회원구",
+    "image": "img/changwon.jpg"
+  }
+]
