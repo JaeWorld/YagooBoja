@@ -5,7 +5,7 @@
     "hometeam": ["엘지 트윈스", "두산 베어스"],
     "capacity": 25553,
     "location": "서울특별시 송파구",
-    "image": "img/jamsil.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Jamsil_Baseball_Stadium_panorama_%28April_28_2017%29.jpg/1200px-Jamsil_Baseball_Stadium_panorama_%28April_28_2017%29.jpg"
   },
   {
     "id": "gocheok",
@@ -13,7 +13,7 @@
     "hometeam": "키움 히어로즈",
     "capacity": 17000,
     "location": "서울특별시 구로구",
-    "image": "img/gocheok.jpg"
+    "imageUrl": "https://www.sporbiz.co.kr/news/photo/201808/260906_201466_534.jpg"
   },
   {
     "id": "suwon",
@@ -21,7 +21,7 @@
     "hometeam": "kt wiz",
     "capacity": 20000,
     "location": "수원시 ",
-    "image": "img/suwon.jpg"
+    "imageUrl": "https://t1.daumcdn.net/cfile/tistory/2559A63A55659B2722"
   },
   {
     "id": "incheon",
@@ -29,7 +29,7 @@
     "hometeam": "SK 와이번스",
     "capacity": 23000,
     "location": "인천광역시 미추홀구",
-    "image": "img/incheon.jpg"
+    "imageUrl": "https://ojsfile.ohmynews.com/STD_IMG_FILE/2018/0910/IE002389784_STD.jpg"
   },
   {
     "id": "daegu",
@@ -37,7 +37,7 @@
     "hometeam": "삼성 라이온즈",
     "capacity": 24000,
     "location": "대구광역시 수성구",
-    "image": "img/daegu.jpg"
+    "imageUrl": "https://www.kyongbuk.co.kr/news/photo/201712/1012654_293058_0614.jpg"
   },
   {
     "id": "gwangju",
@@ -45,7 +45,7 @@
     "hometeam": "KIA 타이거즈",
     "capacity": 22244,
     "location": "광주광역시 북구",
-    "image": "img/gwangju.jpg"
+    "imageUrl": "https://tigers.co.kr/files/resource/2020/03/10/20200310132519.91a-0d4593993bc7.jpg"
   },
   {
     "id": "daejeon",
@@ -53,7 +53,7 @@
     "hometeam": "한화 이글스",
     "capacity": 13440,
     "location": "대전광역시 중구",
-    "image": "img/daejeon.jpg"
+    "imageUrl": "https://lh3.googleusercontent.com/proxy/FuDpoRoEfYENHgG-8NvhLvQEy1ep1sGRFmQaHcwJ4HmEha2AaMNwZBER6vfukW56KSYe3SV3Fvi8JB3YAFufWoU51UUaexnMZqFY1weoxgxdFG6UQstRQ1fvIp3mB8rzh093U6Q"
   },
   {
     "id": "sajik",
@@ -61,7 +61,7 @@
     "hometeam": "롯데 자이언츠",
     "capacity": 22700,
     "location": "부산광역시 동래구",
-    "image": "img/sajik.jpg"
+    "imageUrl": "https://sccdn.chosun.com/news/html/2018/05/30/2018053101002705300211651.jpg"
   },
   {
     "id": "changwon",
@@ -69,6 +69,6 @@
     "hometeam": "NC 다이노스",
     "capacity": 21484,
     "location": "경상남도 창원시 마산회원구",
-    "image": "img/changwon.jpg"
+    "imageUrl": "https://ww.namu.la/s/6848fb59ae074c91453d787bd1dd590eef66a70225c8ed4fd2968916506f970933258f040cf11318fb58acf463303e781ef03d2039c6b54b77f7915c31b623cfe6540ef811af8a93d9370917d6e2de165d7a609fc6325a51a7d9e5d989832fb71af6ef4eaaba6eaa3198be4f2117b891"
   }
 ]

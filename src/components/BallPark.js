@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import data from "../data/data.json";
-import Detail from "./Detail";
 import { Link } from "react-router-dom";
 
 function BallPark() {
@@ -25,7 +24,7 @@ function BallPark() {
             to={`/${item.id}`}
             className="ballpark"
             key={i}
-            style={{ backgroundImage: `url('../${item.image}')` }}
+            style={{ backgroundImage: `url(${item.imageUrl})` }}
           >
             {item.name}
           </Link>
